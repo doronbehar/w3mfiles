@@ -72,13 +72,9 @@ document_root
 personal_document_root 
 cgi_bin 
 index_file 
-mime_types ~/.mime.types, /usr/etc/mime.types
-mailcap ~/.w3m/mailcap, /usr/etc/w3m/mailcap
-urimethodmap ~/.w3m/urimethodmap, /usr/etc/w3m/urimethodmap
-editor /usr/bin/vi
 mailto_options 1
-mailer /usr/bin/mail
-extbrowser /usr/bin/firefox
+mailer mail
+extbrowser firefox
 extbrowser2 
 extbrowser3 
 extbrowser4 
